@@ -110,7 +110,7 @@ button {
 
 .media .paragraph {
     text-align: center;
-    color: rgb(75, 85, 99);
+    color: black;
     font-size: 16px;
 }
 
@@ -141,6 +141,48 @@ button {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+}
+
+/* Advertisement */
+
+.advertisement {
+    padding: 128px 20%;
+}
+
+.advertisement .banner {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 48px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner .heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.banner .paragraph {
+    font-size: 18px;
+    color: rgb(229,231,235);
+}
+
+.banner button {
+    border: 2px solid #e5e7eb;
+    padding: 10px 30px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    font-weight: lighter;
+    font-size: 16px;
+    padding: 42px;
 }
 
 /* links heading images */
